@@ -1,0 +1,56 @@
+{
+  "name": "mapapp-fe-ssr",
+  "version": "1.0.0",
+  "description": "MapApp - Cari lokasi tong sampah terdekat",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "nodemon -w server.js server.js",
+    "lint": "eslint --fix --ext .js src pages",
+    "start": "NODE_ENV=production node server.js",
+    "test": "npm run eslint",
+    "start:server": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeirryAu/MapApp.git"
+  },
+  "keywords": [
+    "Manga"
+  ],
+  "author": "Veirry Augusman",
+  "license": "MIT",
+  "homepage": "https://github.com/VeirryAu/MapApp#readme",
+  "dependencies": {
+    "@material-ui/core": "3.8.1",
+    "@material-ui/icons": "^3.0.2",
+    "@zeit/next-less": "^1.0.1",
+    "apollo-boost": "^0.1.27",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "jss": "9.8.7",
+    "less": "^3.9.0",
+    "lru-cache": "^5.1.1",
+    "next": "8.0.1",
+    "nprogress": "^0.2.0",
+    "prop-types": "15.6.2",
+    "react": "16.7.0",
+    "react-apollo": "^2.4.0",
+    "react-dom": "16.7.0",
+    "react-helmet": "^5.2.0",
+    "react-jss": "8.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "next-workbox-webpack-plugin": "^1.1.0",
+    "nodemon": "^1.18.9",
+    "webpack-pwa-manifest": "^4.0.0"
+  }
+}
