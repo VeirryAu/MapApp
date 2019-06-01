@@ -9,3 +9,6 @@ App for listing specific object into a map
 
 # Production
 *  `yarn start:server`
+
+# Branch
+`$username` -> (Pull Request) -> `develop` -> (Pull Request) -> `master`
